@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-        <p>Deskripsi: (Contoh Dokumentasi)</p>
+        <p>Deskripsi: ini merupakan dokumentasi dari Capstone Project DA - @Algorit.ma </p>
         <p>API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint yang dimaksud. Base url dari aplikasi ini adalah https://chk04-capstone.herokuapp.com/</p>
         <p><br></p>
         <p>Endpoints:&nbsp;</p>
