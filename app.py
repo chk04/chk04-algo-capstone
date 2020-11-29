@@ -4,7 +4,10 @@ app = Flask(__name__)
 
 @app.route('/api-help')
 def home():
-    return 'Hello World'
+    return '''
+            <p>halo nama saya choirul</p>
+            <p><br></p>
+    '''
 
 
 # mendapatkan data dengan filter nilai <value> pada kolom <column>
