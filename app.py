@@ -9,8 +9,8 @@ def home():
         <p>API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint yang dimaksud. Base url dari aplikasi ini adalah https://chk04-capstone.herokuapp.com/</p>
         <p><br></p>
         <p>Endpoints:&nbsp;</p>
-        <p>1. / help, method = GET</p>
-        <p style="margin-left: 20px;">Merupakan endpoint home, dan akan mengembalikan nilai berupa string selamat datang</p>
+        <p>1. /, method = GET</p>
+        <p style="margin-left: 20px;">Merupakan endpoint home, dan akan mengembalikan Dokumentasi</p>
         <p style="margin-left: 20px;"><br></p>
         <p>2. /data/&lt;data_name&gt;/&lt;column&gt;/&lt;value&gt;&apos;, methods=GET</p>
         <p style="margin-left: 20px;">Mengambil data &lt;data_name&gt; dengan filter pada kolom &lt;column&gt; spesifik pada &lt;value&gt;.&nbsp;</p>
@@ -43,9 +43,9 @@ def home():
         <p style="margin-left: 20px;"><span style='color: rgb(0, 0, 0); font-family: "Times New Roman"; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>a. <a data-fr-linked="true" href="https://chk04-capstone.herokuapp.com/rice/purchasemonth/November">https://chk04-capstone.herokuapp.com/rice/purchasemonth/November</a></span></p>
         <p style="margin-left: 20px;"><br></p>
         <p><span style='color: rgb(0, 0, 0); font-family: "Times New Roman"; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>6. /rice/purchase, method=GET,PUSH</span></p>
-        <p style="margin-left: 20px;">Mengambil data dari rice.csv dengan filter pada tahun dan bulan penjualan, dengan GUI</p>
+        <p style="margin-left: 20px;">Mengambil data dari rice.csv dengan filter pada tahun dan bulan penjualan, dengan GUI, dengan input angka</p>
         <p style="margin-left: 20px;">Return: .json</p>
-        <p style="margin-left: 20px;">url: httos://chk04-capstone.herokuapp.com/purchasedate</p>
+        <p style="margin-left: 20px;">url: https://chk04-capstone.herokuapp.com/rice/purchasedate</p>
         <p style="margin-left: 20px;"><br></p>
         <p style="margin-left: 20px;"><br></p>
     '''
