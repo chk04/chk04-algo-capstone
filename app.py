@@ -2,7 +2,7 @@ from flask import Flask, request
 import pandas as pd 
 app = Flask(__name__) 
 
-@app.route('/help')
+@app.route('/')
 def home():
     return '''
         <p>Deskripsi: (Contoh Dokumentasi)</p>
